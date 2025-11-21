@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features ="src/main/resources/Feature",
         glue = {"StepDefination"},
-        plugin = {"pretty", "html:target/cucumber-reports/reports.html", "json:target/cucumber-reports/cucumberReport.json"},
+        plugin = {"pretty", "html:cucumber-reports/reports.html", "json:cucumber-reports/cucumberReport.json"},
         publish = true
         //dryRun = true
 )
