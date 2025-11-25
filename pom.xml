@@ -86,7 +86,8 @@
                     <suiteXmlFiles>
                         <!--                    <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>-->
                         <!--suppress UnresolvedMavenProperty -->
-                        <suiteXmlFile>${smoke}</suiteXmlFile>
+                     <!--   <suiteXmlFile>${smoke}</suiteXmlFile>-->
+                                <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
